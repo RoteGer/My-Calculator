@@ -27,17 +27,8 @@
                 android:layout_weight="1"
                 android:gravity="bottom"
                 android:padding="15dp"
-                android:textSize="20sp" />
+                android:textSize="40sp" />
 
-            <TextView
-                android:id="@+id/textViewResult"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp"
-                android:layout_weight="0.7"
-                android:gravity="right"
-                android:padding="30dp"
-                android:textSize="34sp" />
         </LinearLayout>
 
     </LinearLayout>
@@ -209,7 +200,7 @@
             android:layout_margin="10dp"
             android:layout_weight="1"
             android:background="#FFE718"
-            android:onClick="buttonFunctionNumber"
+            android:onClick="enterSecondActivity"
             android:text="="
             android:textSize="34sp" />
 
